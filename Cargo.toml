@@ -1,0 +1,11 @@
+[package]
+name = "normalize-case"
+version = "0.1.0"
+authors = ["Ben Santora"]
+edition = "2021"
+description = "A small Rust library for normalizing string cases (snake_case, camelCase, PascalCase, etc.)"
+repository = "https://github.com/bensatlantik/normalize-case"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
