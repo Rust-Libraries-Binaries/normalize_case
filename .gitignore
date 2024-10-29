@@ -1,0 +1,24 @@
+# Rust-specific ignores
+/target
+**/*.rs.bk
+
+# Ignore test output
+/tests-output/
+
+# Ignore Cargo lock file for libraries
+# (only if this is a library, not an application)
+Cargo.lock
+
+# Ignoring build artifacts
+*.log
+*.rlib
+*.d
+
+# IDE and editor specific ignores
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
