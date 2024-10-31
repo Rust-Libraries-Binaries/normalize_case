@@ -15,7 +15,7 @@ Add `normalize-case` to your `Cargo.toml`:
 normalize-case = "0.1.0"```
 
 ## Usage
-
+```rust
 use normalize_case::{to_snake_case, to_camel_case, to_pascal_case};
 
 fn main() {
@@ -23,7 +23,9 @@ fn main() {
     assert_eq!(to_camel_case("hello_world"), "helloWorld");
     assert_eq!(to_pascal_case("hello-world"), "HelloWorld");
 }
-Available Functions
+```
+
+## Available Functions
 to_snake_case(s: &str) -> String: Converts a string to snake_case.
 to_camel_case(s: &str) -> String: Converts a string to camelCase.
 to_pascal_case(s: &str) -> String: Converts a string to PascalCase.
@@ -31,4 +33,7 @@ Contributing
 Contributions are welcome! Please feel free to submit a pull request or report issues.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License
+
+## Author
+Ben Santora (<bensatlantik@gmail.com>)
