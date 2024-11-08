@@ -1,3 +1,7 @@
+## Archived Repository
+
+**This repository was a gift from me to the Rust and open-source community. It is no longer actively maintained and has been archived. Feel free to fork and continue development on your own.**
+
 # normalize-case
 
 A small, dependency-free Rust library for converting strings to various cases: `snake_case`, `camelCase`, and `PascalCase`.
@@ -36,4 +40,4 @@ Contributions are welcome! Please feel free to submit a pull request or report i
 This project is licensed under the MIT License
 
 ## Author
-Ben Santora (<bensatlantik@gmail.com>)
+Ben Santora
